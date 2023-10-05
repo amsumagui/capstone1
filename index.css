@@ -9,11 +9,16 @@
 /*Google Font*/
 body{
 	font-family: 'Aleo', serif;
-	/*background-color: #D9958F;*/
+}
+
+p{
+	color: #4F4573;
 }
 
 .welcome-page-pallete{
 	background-color: #D9958F;
+	color: #F2F2F2;
+	text-align: center;
 }
 
 .about-me-pallete{
@@ -28,8 +33,8 @@ body{
 	color: #D9559D;
 }
 
-.nav-green-pallete{
-	background-color: #224040;
+.nav-pallete{
+	background-color: #4F4573;
 }
 
 #nav-section1{
@@ -55,24 +60,19 @@ body{
   height:360px;
 }
 
-.map-responsive{
 
-    overflow:hidden;
-
-    padding-bottom:56.25%;
-
-    position:relative;
-
-    height:0;
-
-}
-
+/* Contacts */
 #contact{
 	padding: 20px;
+	color: #4F4573;
 }
 
-.contact-pallete{
-	background-color: background-color: #D9958F;
+h3{
+	color: #2F3973;
+}
+
+#contact button{
+	color: #4F4573;
 }
 
 #contact iframe{
@@ -83,17 +83,34 @@ body{
      position: relative;
 }
 
+.form-margin{
+	margin: 50px;
+}
+/* Projects */
 #projects{
-	background-color: #224040;
-	color: #D9559D;
+	background-color: #A67690;
 	padding: 20px;
 	text-align: center;
 }
 
+#projects h5{
+	color: #A67690;
+}
+
+#projects div{
+	color: #4F4573;
+}
+
+#projects button{
+	color: #4F4573;
+}
+
 /*Project Text Color*/
 .project-text-color{
-	color: ;
+	color: #F2F2F2;
 }
+
+/*Tools*/
 
 #tools{
 	background-color: #F2E5E4;
@@ -101,8 +118,17 @@ body{
 	padding: 20px;
 }
 
+
 #tools img{
 	max-width: 50%;
   	height: auto;
   	align-items: center;
+}
+
+ul{
+	color: #2F3973;
+}
+
+em{
+	color: #A67690;
 }
