@@ -1,0 +1,108 @@
+/* CSS Reset Rule */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Google Font*/
+body{
+	font-family: 'Aleo', serif;
+	/*background-color: #D9958F;*/
+}
+
+.welcome-page-pallete{
+	background-color: #D9958F;
+}
+
+.about-me-pallete{
+	background-color: #F29D52;
+}
+
+.nav-text-pallete{
+	color: #D9559D;
+}
+
+.nav-text{
+	color: #D9559D;
+}
+
+.nav-green-pallete{
+	background-color: #224040;
+}
+
+#nav-section1{
+	background-color: #F2E5E4;
+}
+
+#nav-section2{
+	background-color: #F2E5E4;
+}
+
+#landing{
+	text-align: center;
+}
+
+#landing img{
+	height: 50% ;
+	width: 50% ;
+}
+
+/*Carousel Sizing*/
+.carousel-pic {
+  width:640px;
+  height:360px;
+}
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+#contact{
+	padding: 20px;
+}
+
+.contact-pallete{
+	background-color: background-color: #D9958F;
+}
+
+#contact iframe{
+	 height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: relative;
+}
+
+#projects{
+	background-color: #224040;
+	color: #D9559D;
+	padding: 20px;
+	text-align: center;
+}
+
+/*Project Text Color*/
+.project-text-color{
+	color: ;
+}
+
+#tools{
+	background-color: #F2E5E4;
+	text-align: center;
+	padding: 20px;
+}
+
+#tools img{
+	max-width: 50%;
+  	height: auto;
+  	align-items: center;
+}
