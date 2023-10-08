@@ -50,8 +50,18 @@ p{
 }
 
 #landing img{
-	height: 50% ;
-	width: 50% ;
+	width: 100%;
+	max-height: 400px;
+	min-height: 220px;
+}
+
+#about{
+	text-align: center;
+}
+
+#about img{
+	max-width: 50%;
+  	height: auto;
 }
 
 /*Carousel Sizing*/
