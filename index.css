@@ -98,6 +98,9 @@ h3{
 	padding: 20px;
 }
 
+#tools button{
+	color: #4F4573;
+}
 
 #tools img{
 	max-width: 50%;
